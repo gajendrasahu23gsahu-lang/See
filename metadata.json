@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "See",
+    "description": "A high-end, futuristic search engine homepage with a premium dark theme and AI-powered discovery feed.",
+    "slug": "see",
+    "version": "1.0.0",
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to tag posts and show nearby content.",
+        "NSCameraUsageDescription": "We need camera access to take photos for posts.",
+        "NSMicrophoneUsageDescription": "We need microphone access to record audio messages."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "We need your location to tag posts and show nearby content."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "We need camera access to take photos for posts."
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "We need microphone access to record audio messages."
+        }
+      ]
+    ]
+  }
+}
