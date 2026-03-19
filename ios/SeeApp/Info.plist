@@ -1,0 +1,8 @@
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>We need your location to tag posts and show nearby content.</string>
+<key>NSCameraUsageDescription</key>
+<string>We need camera access to take photos for posts.</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>We need microphone access to record audio messages.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>We need photo library access to upload images.</string>
