@@ -56,18 +56,18 @@ declare module '@env' {
 Installation
 
 1. Clone the repository and navigate into the folder:
-   bash
+
    git clone <your-repo-url>
    cd see-mobile
    
 2. Install dependencies:
-   bash
+   
    npm install
    # or
    yarn install
    
 3. Install iOS pods (if developing on macOS):
-   bash
+
    cd ios && pod install && cd ..
    
 
@@ -76,19 +76,19 @@ Running the App
 Using React Native CLI
 
 · Start Metro bundler:
-  bash
+
   npm start
   # or
   yarn start
   
 · Run on Android:
-  bash
+  
   npm run android
   # or
   yarn android
   
 · Run on iOS:
-  bash
+  
   npm run ios
   # or
   yarn ios
@@ -104,7 +104,6 @@ Android
 
 Generate a signed APK or App Bundle using Android Studio or the command line:
 
-bash
 cd android
 ./gradlew bundleRelease
 
