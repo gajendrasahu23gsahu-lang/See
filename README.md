@@ -29,18 +29,19 @@ The app integrates Gemini AI for search, content generation, and translation, an
 Create a .env file in the project root with your Gemini API key:
 
 
-
+```
 API_KEY=your_gemini_api_key_here
 
-
-
+```
 If you are using Supabase, also add your Supabase URL and anon key:
 
 
-
+```
 SUPABASE_URL=your_supabase_url
+```
+```
 SUPABASE_ANON_KEY=your_supabase_anon_key
-
+```
 
 
 The app uses "react-native-dotenv" to load these variables. For TypeScript, ensure you have an "env.d.ts" file:
@@ -61,38 +62,38 @@ Installation
    cd see-mobile
    
 2. Install dependencies:
-   
+   ```
    npm install
    # or
    yarn install
-   
+   ```
 3. Install iOS pods (if developing on macOS):
-
+```
    cd ios && pod install && cd ..
    
-
+```
 Running the App
 
 Using React Native CLI
 
 · Start Metro bundler:
-
+```
   npm start
   # or
   yarn start
-  
+```
 · Run on Android:
-  
+  ```
   npm run android
   # or
   yarn android
-  
+  ```
 · Run on iOS:
-  
+  ```
   npm run ios
   # or
   yarn ios
-  
+  ```
 
 Using Expo (if you choose to eject)
 
@@ -114,7 +115,7 @@ Open ios/See.xcworkspace in Xcode, select a development team, and archive the ap
 
 Folder Structure
 
-
+```
 .
 ├── App.tsx                 # Main app component with providers and routing
 ├── components/             # Reusable UI components
@@ -128,7 +129,7 @@ Folder Structure
 ├── babel.config.js         # Babel configuration
 └── .env                    # Environment variables
 
-
+```
 Permissions
 
 The app requests the following permissions (declared in android/app/src/main/AndroidManifest.xml and ios/See/Info.plist):
