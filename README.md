@@ -130,31 +130,30 @@ Folder Structure
 └── .env                    # Environment variables
 
 ```
-Permissions
+<h4>Permissions</h4>
 
 The app requests the following permissions (declared in android/app/src/main/AndroidManifest.xml and ios/See/Info.plist):
+- Camera – Take photos/videos for posts
+- Microphone – Record voice messages and audio notes
+- Location – Tag posts with current location and provide location‑aware search
+- Photo Library – Upload images from gallery
 
-· Camera – Take photos/videos for posts
-· Microphone – Record voice messages and audio notes
-· Location – Tag posts with current location and provide location‑aware search
-· Photo Library – Upload images from gallery
+<h4>Built With</h4>
 
-Built With
+- React Native
+- Supabase – Database and authentication
+- Gemini API – AI search, translation, and content generation
+- lucide-react-native – Icons
+- react-native-markdown-display – Markdown rendering
+- expo-av – Audio/video playback and recording
+- @react-native-async-storage/async-storage – Local storage
+- react-native-tts – Text‑to‑speech
 
-· React Native
-· Supabase – Database and authentication
-· Gemini API – AI search, translation, and content generation
-· lucide-react-native – Icons
-· react-native-markdown-display – Markdown rendering
-· expo-av – Audio/video playback and recording
-· @react-native-async-storage/async-storage – Local storage
-· react-native-tts – Text‑to‑speech
-
-Contributing
+<h4>Contributing</h4>
 
 Feel free to open issues or pull requests. For major changes, please discuss them first.
 
-License
+<h4>License</h4>
 
 MIT
 
