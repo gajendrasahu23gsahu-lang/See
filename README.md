@@ -6,15 +6,15 @@ The app integrates Gemini AI for search, content generation, and translation, an
 
 ## Features
 
-- 🔍 **AI Search** – Real‑time search with Gemini and Google grounding
-- 📰 **Trending Feed** – Curated news articles with infinite scroll
-- 💬 **Social Feed** – Mini‑blogs with likes, reposts, comments, and swipe‑to‑delete
-- ✉️ **Messaging** – Real‑time chat with self‑destructing messages, voice notes, and media sharing
-- 👤 **Profiles** – Follow/unfollow, edit profile, and view followers/following
-- 🌙 **Theming** – Dark, dim, and light modes with system auto‑switch
-- 🌍 **Multilingual** – Built‑in translations (supports 60+ languages)
-- 📍 **Location tagging** – Search and attach locations to posts
-- 🔐 **Authentication** – Sign up / login with email, phone, or handle (secure password storage via Supabase)
+-  **AI Search** – Real‑time search with Gemini and Google grounding
+-  **Trending Feed** – Curated news articles with infinite scroll
+-  **Social Feed** – Mini‑blogs with likes, reposts, comments, and swipe‑to‑delete
+-  **Messaging** – Real‑time chat with self‑destructing messages, voice notes, and media sharing
+-  **Profiles** – Follow/unfollow, edit profile, and view followers/following
+-  **Theming** – Dark, dim, and light modes with system auto‑switch
+-  **Multilingual** – Built‑in translations (supports 60+ languages)
+-  **Location tagging** – Search and attach locations to posts
+-  **Authentication** – Sign up / login with email, phone, or handle (secure password storage via Supabase)
 
 ## Prerequisites
 
